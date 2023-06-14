@@ -11,7 +11,7 @@ Large Volume Data Interaction Framework (LVDIF) is an open-source interaction fr
 - Cross-device input support (mouse, VR controller, etc.)
 - Scripting language for procedural modelling.
 
-![](.\images\image1.jpeg)
+![](images\image1.jpeg)
 
 LVDIF supports interactive editing of large volume data with cross-device input support. This figure shows some interactive editing examples using a mouse-based brush on a 1024<sup>3</sup> RGBA SDF volume of the Stanford bunny. (a) basic union and subtraction operations of the 200<sup>3</sup> cube and sphere primitives; (b) brush input with a radius of 15 for painting and erasing using a mouse: (from top to bottom): basic brush, dynamic brush, and drill brush; (c) subtraction on a union of three 200<sup>3</sup> sphere primitives with different colors; and (d) a painting brush example in a radius of 3 on a 200<sup>3</sup> cube primitive.
 
@@ -36,7 +36,7 @@ The example scenes are in Examples folder (also see this [video](https://youtu.b
 
 Scene: Mouse example.unity
 
-![](.\images\image2.png)
+![](images\image2.png)
 
 This scene contains the main functions of LVDIF.
 
@@ -64,7 +64,7 @@ Integrate with other input device: see AbstractInputDevice.cs.
 
 ### Procedural modelling
 
-![](.\images\image3.jpeg)
+![](images\image3.jpeg)
 
 Load a volume file then press F7 to F8. The example scene contains 2 procedural modelling simple: (a): colorful 3D spiral lines; (b) a dice.
 
