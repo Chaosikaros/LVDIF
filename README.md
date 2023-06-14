@@ -1,6 +1,6 @@
 # Large Volume Data Interaction Framework
 
-### [Video](https://youtu.be/TBA) | [Paper](https://arxiv.org/abs/TBA)
+### [Video](https://youtu.be/0G11HCm5MvA) | [Paper[Link TBA]](https://arxiv.org/abs/TBA)
 
 Large Volume Data Interaction Framework (LVDIF) is an open-source interaction framework for real-time interact with large volume data. It is integrated into Unity3D to benefit from interaction scenarios in game engine. LVDIF contains 2 main components: a CUDA library that provides volume data container, mesh to SDF algorithm, and volume rendering pipeline; an interaction framework that provides input device interaction and volume interaction interface in Unity3D.
 
@@ -30,7 +30,7 @@ The DLL project is built in Visual Studio 2019. The Unity project contains the p
 
 ## Getting Started Guide
 
-The example scenes are in Examples folder (also see this [Video](https://youtu.be/TBA)).
+The example scenes are in Examples folder (also see this [video](https://youtu.be/0G11HCm5MvA)).
 
 ### Mouse&Keyboard 
 
@@ -90,5 +90,5 @@ Many thanks to the authors of these open-source repositories:
 2. [Unity Marching Cubes](https://github.com/SebLague/Marching-Cubes)
 
 ## Citations
-Link to [arXiv Paper](https://arxiv.org/abs/TBA)
+Link to [arXiv Paper [TBA]](https://arxiv.org/abs/TBA)
 Contact: chaosikaros@outlook.com
