@@ -32,7 +32,7 @@ The DLL project is built in Visual Studio 2019. The Unity project contains the p
 
 The example scenes are in Examples folder (also see this [video](https://youtu.be/0G11HCm5MvA)).
 
-### Mouse&Keyboard 
+### Mouse&Keyboard (available demo: "LVDIF Mouse&Keyboard.7z" in release page)
 
 Scene: Mouse example.unity
 
@@ -46,7 +46,7 @@ Input (Load or generate a volume before input): left mouse button; Eraser on/off
 
 Mesh to SDF for 1024<sup>3</sup> volume requires about 8 GB GPU memory.
 
-### Optional set-up for VR
+### Optional set-up for VR (available demo: "LVDIF Oculus VR.7z" in release page)
 
 Scene: Oculus rift s VR example.unity
 
@@ -71,6 +71,9 @@ Load a volume file then press F7 to F8. The example scene contains 2 procedural 
 ### Input Action Record and Replay
 
 Record: Press start/stop recording; Replay: Press play recording.
+
+### Known issues
+1. CUDA dll (?) cannot be run from folder contains non-ASCII characters in path (运行路径不能包含中文，似乎是CUDA dll的问题)
 
 ## To do list
 1. Add Compute shader as alternative backend of rendering pipeline to support more GPU device. It is possible to replace the CUDA kernel and single large GPU buffer for large volume data with Compute shader and a group of smaller 3D textures. 
@@ -102,4 +105,5 @@ Many thanks to the authors of these open-source repositories:
 ```
 
 Link to [Paper](https://link.springer.com/article/10.1007/s00371-023-02976-x)
+
 Contact: chaosikaros@outlook.com
