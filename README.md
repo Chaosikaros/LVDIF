@@ -31,6 +31,7 @@ The DLL project is built in Visual Studio 2019. The Unity project contains the p
 ## Getting Started Guide
 
 The example scenes are in Examples folder (also see this [video](https://youtu.be/0G11HCm5MvA)).
+The demo applications contain RGBA SDF volume files of a 512<sup>3</sup> horse and a 128 <sup>3</sup> dragon.
 
 ### Mouse&Keyboard (available demo: "LVDIF Mouse&Keyboard.7z" in release page)
 
@@ -71,6 +72,7 @@ Load a volume file then press F7 to F8. The example scene contains 2 procedural 
 ### Input Action Record and Replay
 
 Record: Press start/stop recording; Replay: Press play recording.
+Testing: load the 512<sup>3</sup> horse volume then click on "Play recording" button.
 
 ### Known issues
 1. CUDA dll (?) cannot be run from folder contains non-ASCII characters in path (运行路径不能包含中文，似乎是CUDA dll的问题)
