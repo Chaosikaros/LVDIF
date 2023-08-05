@@ -80,7 +80,7 @@ Testing: load the 512<sup>3</sup> horse volume then click on "Play recording" bu
 
 An example of usthort2 SDF volume generation in Unity C# (ImageToVolume.cs): image to texture2D to usthort2 SDF (max volume size: 512<sup>3</sup> )
 
-![](images\image2volume.jpg)
+![](images/image2volume.jpg)
 
 (a) 2D test image; (b) depth image of (a); (c) volume of (a); (d) volume (c) with offset from (b)
 
