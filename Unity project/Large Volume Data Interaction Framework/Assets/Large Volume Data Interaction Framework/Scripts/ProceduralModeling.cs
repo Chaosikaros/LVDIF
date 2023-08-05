@@ -454,7 +454,6 @@ public class ProceduralModeling : MonoBehaviour
         BrushManager.holder.SetBrushShape((int)BrushShape.Sphere);
         BrushManager.holder.eraserMode = false;
         BrushManager.holder.colorType = 0;
-        BrushManager.holder.colorType = 0;
         float minRadius = BrushManager.holder.minInputRadius / CudaMarchingCubesChunks.cudaMCManager.gridSize.x;
         SetInputRadius(minRadius);
 

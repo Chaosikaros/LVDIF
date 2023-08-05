@@ -12,6 +12,7 @@ using TMPro;
 
 namespace ChaosIkaros.LVDIF
 {
+
     public enum SVFSetting
     {
         Off,
@@ -116,10 +117,12 @@ namespace ChaosIkaros.LVDIF
         public Text statusDebug;
         public Text fpsDisplay;
         public static float[] lastSDF;
+        public static ushort2[] ushort2SDF;
         public Texture3D exportSDF;
         public bool exportTexture3D = false;
         public bool exportNewSdf = false;
         public bool loadSDF = false;
+        public bool loadSDFFromUnity = false;
         public bool loadModel = true;
         public string importSDF;
         public List<Color> volumeColors = new List<Color>();
@@ -385,11 +388,17 @@ namespace ChaosIkaros.LVDIF
             return dirpath + importSDF;
         }
 
-        public float[] ImportSDF()
+        public ushort2[] ImportSDF()
         {
-            if (loadSDF)
+            if (loadSDFFromUnity)
             {
-                //loadSDF = false;
+                loadSDF = false;
+                loadSDFFromUnity = false;
+                return ushort2SDF;
+            }
+            else if (loadSDF)
+            {
+                loadSDF = false;
                 if (!File.Exists(GetImportSDFPath()))
                 {
                     Debug.Log("Cannot find the file:" + GetImportSDFPath());
@@ -461,7 +470,7 @@ namespace ChaosIkaros.LVDIF
         public void ClampInputParameters()
         {
             transform.localScale = parentScale * Vector3.one;
-            if (loadSDF && importSDF != "")
+            if (!loadSDFFromUnity && loadSDF && importSDF != "")
             {
                 GridResLog2_X = (int)Mathf.Log(float.Parse(importSDF.Split('_')[1]), 2);
             }

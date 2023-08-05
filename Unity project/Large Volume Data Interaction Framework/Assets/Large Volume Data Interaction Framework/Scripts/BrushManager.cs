@@ -72,10 +72,8 @@ namespace ChaosIkaros.LVDIF
         {
             timerAll = System.Diagnostics.Stopwatch.StartNew();
             holder = this;
-            CudaMarchingCubesChunks.cudaMCManager.volumeColors = new List<Color>();
-            CudaMarchingCubesChunks.cudaMCManager.volumeColors.AddRange(volumeColors);
             brushState = BrushState.End;
-            currentColorHint.color = volumeColors[colorType];
+            ResetColors(volumeColors);
             inputMethodDropdown.ClearOptions();
             List<string> inputMethods = new List<string>();
             inputMethods.AddRange(System.Enum.GetNames(typeof(InputMethod)));
@@ -86,6 +84,15 @@ namespace ChaosIkaros.LVDIF
                 inputMethodDropdown.value = 1;
             }
         }
+
+        public void ResetColors(List<Color> input)
+        {
+            volumeColors = input;
+            CudaMarchingCubesChunks.cudaMCManager.volumeColors = new List<Color>();
+            CudaMarchingCubesChunks.cudaMCManager.volumeColors.AddRange(volumeColors);
+            currentColorHint.color = volumeColors[colorType];
+        }
+
         // Start is called before the first frame update
         void Start()
         {

@@ -21,8 +21,8 @@ namespace ChaosIkaros.LVDIF
         [DllImport("CudaUnity")]
         public static extern bool SetMarchingCubesChunks(int num, int minChunkSizeLog2I, int chunkThreadsI);
         [DllImport("CudaUnity")]
-        public static extern void SetMarchingCubesKernelInThread(int chunkID, int voxelThreads, int triangleThreads, Vector3 CenterPos, float volumeWidth
-            , float NoiseInterval, float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSDF, float[] sdfData,
+        public static extern void SetMarchingCubesKernelInThread(int chunkID, int size, int voxelThreads, int triangleThreads, Vector3 CenterPos, float volumeWidth
+            , float NoiseInterval, float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSDF, bool loadSdfFromUnity, [MarshalAs(UnmanagedType.LPArray, SizeParamIndex = 1)] ushort2[] sdfData,
             int gridSizeLog2OBox, bool exportTexture3D, string sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting);
         [DllImport("CudaUnity")]
         public static extern void SaveSdfData(int chunkID, string fileName);

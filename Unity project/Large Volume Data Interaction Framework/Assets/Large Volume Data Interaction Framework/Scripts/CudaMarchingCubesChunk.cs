@@ -153,11 +153,11 @@ namespace ChaosIkaros.LVDIF
                         CudaMarchingCubesChunks.meshChunkUpdateStates[i] = false;
                     }
                     //lastPos + CenterPos + meshOffset * unitSize
-                    CudaBridge.SetMarchingCubesKernelInThread(chunkID, CudaMarchingCubesChunks.cudaMCManager.voxelThreads,
+                    CudaBridge.SetMarchingCubesKernelInThread(chunkID, CudaMarchingCubesChunks.cudaMCManager.maxVoxelNum, CudaMarchingCubesChunks.cudaMCManager.voxelThreads,
                         CudaMarchingCubesChunks.cudaMCManager.triangleThreads, lastPos + CenterPos + meshOffset * unitSize, CudaMarchingCubesChunks.cudaMCManager.volumeWidth,
                         CudaMarchingCubesChunks.cudaMCManager.octreeBboxSizeOffset, CudaMarchingCubesChunks.cudaMCManager.IsoLevel,
                         CudaMarchingCubesChunks.cudaMCManager.EnableSmooth, loadModel,
-                        CudaMarchingCubesChunks.cudaMCManager.loadSDF, CudaMarchingCubesChunks.cudaMCManager.ImportSDF(),
+                        CudaMarchingCubesChunks.cudaMCManager.loadSDF, CudaMarchingCubesChunks.cudaMCManager.loadSDFFromUnity, CudaMarchingCubesChunks.cudaMCManager.ImportSDF(),
                         CudaMarchingCubesChunks.cudaMCManager.GridSizeLog2OctreeBox,
                         CudaMarchingCubesChunks.cudaMCManager.exportTexture3D, CudaMarchingCubesChunks.cudaMCManager.GetImportSDFPath()
                         , CudaMarchingCubesChunks.cudaMCManager.filterValue, CudaMarchingCubesChunks.cudaMCManager.sleepTime, CudaMarchingCubesChunks.cudaMCManager.maxUpdatedChunkPerFrame,

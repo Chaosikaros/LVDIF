@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Large Volume Data Interaction Framework/Examples/Mouse example.unity
+- path: Assets/Large Volume Data Interaction Framework/Examples/Image to Volume-Mouse
+    example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

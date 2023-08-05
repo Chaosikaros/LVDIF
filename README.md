@@ -74,8 +74,23 @@ Load a volume file then press F7 to F8. The example scene contains 2 procedural 
 Record: Press start/stop recording; Replay: Press play recording.
 Testing: load the 512<sup>3</sup> horse volume then click on "Play recording" button.
 
+### Experimental features 
+
+1: 2D image to volume (Image to Volume-Mouse example.scene)
+
+An example of usthort2 SDF volume generation in Unity C# (ImageToVolume.cs): image to texture2D to usthort2 SDF (max volume size: 512<sup>3</sup> )
+
+![](D:\LVDIF Github\Repo\LVDIF\images\image2volume.jpg)
+
+(a) 2D test image; (b) depth image of (a); (c) volume of (a); (d) volume (c) with offset from (b)
+
+Source:
+
+[Test image](https://civitai.com/images/1805059?period=AllTime&periodMode=published&sort=Newest&view=categories&username=yuki_hotaru&withTags=false) [Depth image from an online midas model](https://imageamigo.com/photodepth/) 
+
 ### Known issues
 1. CUDA dll (?) cannot be run from folder contains non-ASCII characters in path (运行路径不能包含中文，似乎是CUDA dll的问题)
+2. Pixel flickering at low rendering resolution (may be caused by the vertex color shader)
 
 ## To do list
 1. Add Compute shader as alternative backend of rendering pipeline to support more GPU device. It is possible to replace the CUDA kernel and single large GPU buffer for large volume data with Compute shader and a group of smaller 3D textures. 

@@ -320,9 +320,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"D:/LVDIF Github/Repo/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
--r:"D:/LVDIF Github/Repo/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"D:/LVDIF Github/Repo/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/LVDIF Github/Repo/LVDIF/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"D:/LVDIF Github/Repo/LVDIF/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/LVDIF Github/Repo/LVDIF/Unity project/Large Volume Data Interaction Framework/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -355,6 +355,7 @@
 "Assets/Large Volume Data Interaction Framework/Scripts/CudaMarchingCubesChunk.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/CudaMarchingCubesChunks.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/CudaUtility.cs"
+"Assets/Large Volume Data Interaction Framework/Scripts/ImageToVolume.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/InputRecorder.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/InputVolume.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/LVDIFSetup.cs"
@@ -363,6 +364,7 @@
 "Assets/Large Volume Data Interaction Framework/Scripts/OculusVRInput.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/ProceduralModeling.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/SdfDictTest.cs"
+"Assets/Large Volume Data Interaction Framework/Scripts/SDFDicUtil.cs"
 "Assets/Large Volume Data Interaction Framework/Scripts/ThreadManager.cs"
 -langversion:9.0
 /unsafe+
