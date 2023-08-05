@@ -300,7 +300,8 @@ extern"C" {
 	EXPORTS_DLL bool SetMeshForVoxel(Vector3 gridSize, Vector3 boundsMax, Vector3 boundsMin, Vector3* vertices,  int* triangles,
 		Vector3* normals, int verticeSize, int triangleSize, int normalSize);
 	EXPORTS_DLL bool SetMarchingCubesChunks(int num, int minChunkSizeLog2, int chunkThreads);
-	EXPORTS_DLL void SetMarchingCubesKernelInThread(int chunkID, int voxelThreads, int triangleThreads, float3 CenterPos, float GridW, float octreeBboxSizeOffset, float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, float* sdfData,
+	EXPORTS_DLL void SetMarchingCubesKernelInThread(int chunkID, int size, int voxelThreads, int triangleThreads, float3 CenterPos, float GridW, float octreeBboxSizeOffset, 
+		float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, bool loadSdfFromUnity, ushort2* sdfData,
 		int gridSizeLog2OBox, bool exportTexture3D, char* sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting);
 	EXPORTS_DLL int GetExtractMarchingTriCount(int chunkID);
 	EXPORTS_DLL bool GetExtractCubeVoxels(int chunkID, int size, float* cubeVoxel);

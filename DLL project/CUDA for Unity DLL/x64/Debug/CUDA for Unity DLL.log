@@ -49,7 +49,7 @@ C:/Users/Chaosikaros/source/repos/CUDA for Unity DLL/CUDA for Unity DLL/kernel.c
   
 C:/Users/Chaosikaros/source/repos/CUDA for Unity DLL/CUDA for Unity DLL/kernel.cu(1105): warning : variable "z" was declared but never referenced
   
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(325): warning : extern inline function "CudaUnity::__getLastCudaError" was referenced but not defined
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(326): warning : extern inline function "CudaUnity::__getLastCudaError" was referenced but not defined
   
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(40): warning C4005: 'getLastCudaError': macro redefinition
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(41): warning C4005: 'checkCudaErrors': macro redefinition
@@ -73,7 +73,7 @@ C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnit
   
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(230): warning : attribute does not apply to any entity
   
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(325): warning : extern inline function "CudaUnity::__getLastCudaError" was referenced but not defined
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(326): warning : extern inline function "CudaUnity::__getLastCudaError" was referenced but not defined
   
   kernel.cu
   device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
@@ -173,57 +173,57 @@ C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnit
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(245,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(245,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(171,1): warning C4267: '=': conversion from 'size_t' to 'uint', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(417,24): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(424,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(425,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(426,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(428,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(429,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(430,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(435,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(436,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(437,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(439,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(440,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(441,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(446,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(447,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(448,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(450,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(451,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(452,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(470,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(471,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(570,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(572,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(574,26): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(613,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(736,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(737,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(776,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(777,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1049,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1044,5): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1180,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1183,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,50): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1298,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1303,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1350,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1352,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1354,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1369,1): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1409,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1409,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1410,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1410,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1415,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1415,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1416,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1416,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(431,24): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(438,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(439,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(440,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(442,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(443,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(444,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(449,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(450,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(451,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(453,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(454,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(455,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(460,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(461,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(462,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(464,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(465,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(466,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(484,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(485,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(584,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(586,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(588,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(627,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(750,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(751,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(790,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(791,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1064,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1059,5): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1195,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1198,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,50): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1313,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1318,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1365,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1367,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1369,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1384,1): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1424,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1424,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1425,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1425,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1431,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1431,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1445,1): warning C4305: '+=': truncation from 'double' to 'float'
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.cpp(66,22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.cpp(80,30): warning C4101: 'csbi': unreferenced local variable
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.cpp(148,8): warning C4101: 'name': unreferenced local variable
@@ -237,57 +237,57 @@ C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnit
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(245,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\CudaUnity.h(245,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(171,1): warning C4267: '=': conversion from 'size_t' to 'uint', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(417,24): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(424,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(425,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(426,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(428,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(429,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(430,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(435,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(436,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(437,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(439,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(440,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(441,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(446,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(447,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(448,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(450,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(451,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(452,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(470,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(471,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(570,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(572,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(574,26): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(613,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(736,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(737,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(776,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(777,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1049,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1044,5): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1180,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1183,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,50): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1266,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1298,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1303,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1350,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1352,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1354,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1369,1): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1409,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1409,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1410,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1410,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1415,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1415,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1416,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1416,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(431,24): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(438,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(439,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(440,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(442,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(443,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(444,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(449,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(450,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(451,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(453,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(454,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(455,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(460,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(461,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(462,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(464,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(465,40): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(466,25): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(484,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(485,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(584,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(586,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(588,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(627,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(750,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(751,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(790,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(791,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1064,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1059,5): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1195,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1198,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,50): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1281,34): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1313,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1318,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1365,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1367,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1369,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1384,1): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1424,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1424,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1425,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1425,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1430,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1431,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1431,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\CUDA for Unity DLL\MarchingCubesChunk.h(1445,1): warning C4305: '+=': truncation from 'double' to 'float'
   Generating Code...
      Creating library C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\x64\Debug\CudaUnity.lib and object C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\x64\Debug\CudaUnity.exp
   CUDA for Unity DLL.vcxproj -> C:\Users\Chaosikaros\source\repos\CUDA for Unity DLL\x64\Debug\CudaUnity.dll

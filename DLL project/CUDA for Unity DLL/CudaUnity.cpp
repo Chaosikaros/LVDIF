@@ -228,7 +228,7 @@ namespace CudaUnity
 
 		return EXCEPTION_EXECUTE_HANDLER;
 	}
-
+	
 	void DebugLogToUnity(string output)
 	{
 		DebugLogCallBack((_bstr_t)output.c_str());
@@ -385,15 +385,15 @@ void GetExtractMarchingCubesChunkData(int chunkID, int childChunkID, int size, V
 		mcChunks[chunkID].GetExtractMarchingCubesChunkData(childChunkID, size, vertices, normals, triangles, colors, GridWI, triangleThreads, IsoLevel, EnableSmooth);
 }
 
-void SetMarchingCubesKernelInThread(int chunkID, int voxelThreads, int triangleThreads, float3 CenterPosI, 
+void SetMarchingCubesKernelInThread(int chunkID, int size, int voxelThreads, int triangleThreads, float3 CenterPosI,
 	float GridWI, float octreeBboxSizeOffset, float IsoLevel, bool EnableSmooth,
-	bool loadMesh, bool loadSdf, float* sdfData, int gridSizeLog2OBox, bool exportTexture3D, char* sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting)
+	bool loadMesh, bool loadSdf, bool loadSdfFromUnity, ushort2* sdfData, int gridSizeLog2OBox, bool exportTexture3D, char* sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting)
 {
 	string fileNameS = string(sdfFileName);
 	if (CheckMcChunks(chunkID))
-		mcChunks[chunkID].SetMarchingCubesThread(voxelThreads, triangleThreads,
+		mcChunks[chunkID].SetMarchingCubesThread(size, voxelThreads, triangleThreads,
 			CenterPosI, GridWI, octreeBboxSizeOffset, IsoLevel, EnableSmooth, loadMesh, 
-			loadSdf, sdfData, gridSizeLog2OBox, exportTexture3D, fileNameS, filterValue, sleepTime, maxUpatedChunk, SVFSetting);
+			loadSdf, loadSdfFromUnity, sdfData, gridSizeLog2OBox, exportTexture3D, fileNameS, filterValue, sleepTime, maxUpatedChunk, SVFSetting);
 }
 
 void SetCallbackForMC(McCallback callback)

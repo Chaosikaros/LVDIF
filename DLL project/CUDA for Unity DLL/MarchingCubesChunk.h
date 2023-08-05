@@ -327,8 +327,8 @@ namespace CudaUnity {
 			free(ushort2Out);
 		}
 
-		int SetMarchingCubesKernel(int voxelThreads, int triangleThreads, float3 CenterPosI, float GridWI,
-			float octreeBboxSizeOffset, float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, float* sdfData,
+		int SetMarchingCubesKernel(int size, int voxelThreads, int triangleThreads, float3 CenterPosI, float GridWI,
+			float octreeBboxSizeOffset, float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, bool loadSdfFromUnity, ushort2* sdfData,
 			int gridSizeLog2OBox, bool exportTexture3D, string sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting)
 		{
 			cudaSetDevice(cudaDeviceID);
@@ -356,14 +356,28 @@ namespace CudaUnity {
 			}
 			if (loadSdf)
 			{
-				//noiseData1D = sdfData;
-				noiseData1D = (ushort2*)malloc(n * sizeof(ushort2));
-
-				ifstream sIn(sdfFileName, ios::in | ios::binary);
-				sIn.read(reinterpret_cast<char*>(noiseData1D), sizeof(ushort2) * n);
-				sIn.close();
+				if (loadSdfFromUnity)
+				{
+					noiseData1D = (ushort2*)malloc(n * sizeof(ushort2));
+					for(int i=0;i<n;i++)
+						noiseData1D[i] = make_ushort2(sdfData[i].x, sdfData[i].y);
+				}
+				else
+				{
+					noiseData1D = (ushort2*)malloc(n * sizeof(ushort2));
+					ifstream sIn(sdfFileName, ios::in | ios::binary);
+					sIn.read(reinterpret_cast<char*>(noiseData1D), sizeof(ushort2) * n);
+					sIn.close();
+				}
 				if (debugLevel >= 1)
 					DebugLogToUnity(sFormator("Load SDF for chunk [%d] : %s", chunkID, sdfFileName.c_str()));
+				if (debugLevel >= 3)
+				{
+					int n = gridSize.x * gridSize.y * gridSize.z;
+					for (int i = 0; i < n; i++)
+						DebugLogToUnity(sFormator("SDF at voxel [%d] : %f", i, sdfDictionary1D[noiseData1D[i].x].x));
+				}
+
 				//else
 				//{
 				//	for (int i = 0; i < n; i++)
@@ -990,16 +1004,17 @@ namespace CudaUnity {
 			}
 		}
 
-		void SetMarchingCubesThread(int voxelThreads,
+		void SetMarchingCubesThread(int size, int voxelThreads,
 			int triangleThreads, float3 CenterPosI, float GridWI, float octreeBboxSizeOffset,
-			float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, float* sdfData,
+			float IsoLevel, bool EnableSmooth, bool loadMesh, bool loadSdf, bool loadSdfFromUnity, ushort2* sdfData,
 			int gridSizeLog2OBox, bool exportTexture3D, string sdfFileName, float filterValue, int sleepTime, int maxUpatedChunk, int SVFSetting)
 		{
 			if (debugLevel >= 1)
 				DebugLogToUnity(sFormator("Chunk ID %d :start thread", chunkID));
 			SetTimer();
-			kernelThread = std::thread(&MarchingCubesChunk::SetMarchingCubesKernel, this, voxelThreads, triangleThreads,
-				CenterPosI, GridWI, octreeBboxSizeOffset, IsoLevel, EnableSmooth, loadMesh,loadSdf,sdfData, gridSizeLog2OBox, exportTexture3D, sdfFileName, filterValue, sleepTime, maxUpatedChunk, SVFSetting);
+			kernelThread = std::thread(&MarchingCubesChunk::SetMarchingCubesKernel, this, size, voxelThreads, triangleThreads,
+				CenterPosI, GridWI, octreeBboxSizeOffset, IsoLevel, EnableSmooth, loadMesh,loadSdf, loadSdfFromUnity,
+				sdfData, gridSizeLog2OBox, exportTexture3D, sdfFileName, filterValue, sleepTime, maxUpatedChunk, SVFSetting);
 			if (debugLevel >= 1)
 				DebugLogToUnity(sFormator("Chunk ID %d :end to start thread: %f", chunkID, sdkGetTimerValue(&timer)));
 			SetTimer();

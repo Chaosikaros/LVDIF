@@ -1,7 +1,13 @@
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\vc142.pdb
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\vc142.idb
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\marchingcubeschunk.obj
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.obj
 x64\debug\kernel.cu.obj
+c:\users\chaosikaros\source\repos\cuda for unity dll\x64\debug\cudaunity.lib
+c:\users\chaosikaros\source\repos\cuda for unity dll\x64\debug\cudaunity.exp
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.ilk
+c:\users\chaosikaros\source\repos\cuda for unity dll\x64\debug\cudaunity.dll
+c:\users\chaosikaros\source\repos\cuda for unity dll\x64\debug\cudaunity.pdb
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\kernel.cu.cache
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\kernel.cu.obj
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\cl.command.1.tlog
@@ -9,3 +15,7 @@ c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debu
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\cl.write.1.tlog
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\cudacompile.read.1u.tlog
 c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\cudacompile.write.1u.tlog
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\cudaunity.write.1u.tlog
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\link.command.1.tlog
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\link.read.1.tlog
+c:\users\chaosikaros\source\repos\cuda for unity dll\cuda for unity dll\x64\debug\cudaunity.tlog\link.write.1.tlog
